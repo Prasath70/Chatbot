@@ -1,0 +1,37 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "about",
+         "patterns": ["What is L&T company?", "Could you provide some information on L&T Company?", "Can you tell me about the L&T Corporation?" ],
+         "responses": ["Larsen & Toubro Limited (L&T) is a multinational conglomerate based in Mumbai, India. It was founded in 1938 and operates in various sectors including engineering, construction, technology, manufacturing, and financial services.", "L&T Company is one of the largest and most diversified companies in India, with a presence in more than 30 countries worldwide. The company is involved in a wide range of businesses, including engineering, construction, technology, manufacturing, and financial services.", "L&T Company is a well-established Indian conglomerate that operates in multiple sectors, including engineering, construction, manufacturing, technology, and financial services. With a legacy of more than 80 years, L&T Company is known for its quality products, innovation, and commitment to sustainability."]
+        },
+        {"tag": "products",
+         "patterns": ["Could you give me examples of notable projects that L&T has completed?", "What are some of the high-profile initiatives that L&T has been involved in?", "Can you tell me about some of the major undertakings of L&T?"],
+         "responses": ["L&T has undertaken several major projects across various sectors. Some of its notable projects include the construction of the Statue of Unity, the world's tallest statue located in India, the design and construction of various metro rail projects in India, the development of airports and highways, and the manufacturing of defense equipment and systems.", "Various products developed by L&T includes Power transmission and distribution equipment, Railway signaling systems and infrastructure, IT and digital solutions for businesses and governments, including analytics, cloud services, and cybersecurity"]
+        },
+        {"tag": "services",
+         "patterns": ["What are the main services provided by L&T?", "What are the services provided by L&T?" ],
+         "responses": ["L&T provides a wide range of services across various sectors including construction, engineering, infrastructure development, manufacturing, technology, and financial services. Some of its major services include building and designing infrastructure projects, manufacturing engineering products, providing IT and digital solutions, and offering financial services like insurance and mutual funds."]
+        },
+        {"tag": "headquarters",
+         "patterns": ["Where is the headquarters of L&T located?","What is the location of L&T's headquarters?", "Can you tell me where L&T's corporate headquarters are located?"],
+         "responses": ["The headquarters of L&T is located in Mumbai, India.", "L&T headquarters is located in Mumbai"]
+        },
+        {"tag": "developments",
+         "patterns": ["What are some of the recent developments at L&T?","What is the major development of L&T?" ],
+         "responses": ["L&T has been involved in several recent developments including the acquisition of Mindtree, an IT services company, and the launch of its digital arm L&T-Nxt to provide digital solutions and services to clients."," Focus on sustainability: L&T has been focusing on sustainability in its operations and projects, and has set a target to reduce its carbon footprint by 50% by 2030.", "Acquisition of Mindtree: In 2019, L&T acquired a controlling stake in Mindtree, an Indian IT services company, to expand its digital offerings."]
+        }
+   ]
+}
+
